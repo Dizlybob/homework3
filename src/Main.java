@@ -6,10 +6,14 @@ public class Main {
         short populationOfVillage = 30000;
         byte students = 31;
         long populationOfEarth = 8237660388L;
+        float litersOfMilk = 1.9f;
+        double nubmerPi = 3.1415926535;
         System.out.println("Значение переменной money с типом int равно " + money);
         System.out.println("Значение переменной populationOfVillage с типом short равно " + populationOfVillage);
         System.out.println("Значение переменной students с типом byte равно " + students);
         System.out.println("Значение переменной populationOfEarth с типом long равно " + populationOfEarth);
+        System.out.println("Значение переменной litersOfMilk с типом float равно " + litersOfMilk);
+        System.out.println("Значение переменной nubmerPi с типом double равно " + nubmerPi);
         //Задача 2
         System.out.println("Задача 2");
         float a = 27.12f;
@@ -68,7 +72,7 @@ public class Main {
         byte rawEggs = 4;
         byte rawEggWeight = 70;
         short breakfastWeight = (short) ((bananaWeight*bananas)+(milkWeight*(milk/100))+(iceCreamWeight*iceCream)+(rawEggWeight*rawEggs));
-        float breakfastWightKilogram = (float) breakfastWeight / 1000;
+        short breakfastWightKilogram = (short) (breakfastWeight / 1000);
         System.out.println("Общий вес спортзавтрака в граммах будет " + breakfastWeight + " и в килограммах " + breakfastWightKilogram);
         //Задача 7
         System.out.println("Задача 7");
